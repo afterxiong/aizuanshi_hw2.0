@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/follow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/title"
+      />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/tencen_qq"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:drawableTop="@drawable/qq"
+                    android:gravity="center_horizontal"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/wechats"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:drawableTop="@drawable/wechat"
+                    android:gravity="center_horizontal"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/qzones"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:drawableTop="@drawable/qzone"
+                    android:gravity="center_horizontal"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/wechatmom"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:drawableTop="@drawable/wechatmom"
+                    android:gravity="center_horizontal"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/before_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                 android:textColor="#FF0000"
+                android:text="@string/before"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/border"
+                android:padding="5dp"
+                android:text="@string/share_text"
+                android:textSize="16sp" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/acquire_bg"
+                android:onClick="raise"
+                android:layout_marginTop="20dp"
+                android:text="@string/wall_integral"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

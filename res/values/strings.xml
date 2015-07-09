@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="app_name">天天爱钻石</string>
+    <string name="game_tip">腾讯游戏</string>
+    <string name="present_integral">当前积分:%1$d</string>
+    <string name="share_integral">分享赚积分</string>
+    <string name="contacts">联系我们</string>
+    <string name="wall_integral">升级Vip</string>
+    <string name="remain_integral">当前为免费用户，还差%1$d分成为会员</string>
+    <string name="refurbish">刷新积分</string>
+    <string name="receive">领取钻石</string>
+    <string name="earn">免费赚积分</string>
+    <string name="tencen">QQ</string>
+    <string name="wechatmom">朋友圈</string>
+    <string name="wechats">微信</string>
+    <string name="qzones">QQ空间</string>
+    <string name="toast_warning">该游戏未安装</string>
+    <string name="rank">等级:%1$s</string>
+    <string name="tip_title">等级说明</string>
+    <string name="acquire">领取钻石</string>
+    <string name="upgrade_vip">升级VIP</string>
+    <string name="before">当前积分:%1$s</string>
+    <string name="gold_tip">当前拥有的金币:%1$s</string>
+    <string name="tip">恭喜aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</string>
+    <string name="before1">当前积分:%1$s</string>
+    <string name="share_text">1、点击按钮分享到社交平台\n\t\t获得10个积分就能成为VIP\n2、QQ群分享4次，获得四个积分\n3、微信分享4次，获得四个积分\n4、空间分享1次，获得一个积分\n5、朋友圈分享1次，获得一个积分</string>
+    <string name="tip_text">本软件终身免费，通过腾讯手游内购漏洞绕过支付环节完成领取钻石。为了节制资源，特别设置了用户等级免费用户，VIP1用户（每天可领取所有手游500钻石）VIP2用户（每天可领取所有手游1000钻石）VIP3用户（每天可领取所有手游3000钻石）所有会员等级都是免费通过任务开通的，本软件不收任何费用，关于升级VIP，请点击免费升级VIP。</string>
+    <string name="splashactivity_update_prompt">版本更新</string>
+    <string name="tip_text1">免费用户无法领取钻石\nVip1每天可以领取1000个钻石\nVip2每天可以领取2000个钻石\nVip3每天可以领取3000个钻石\n</string>
+    <string name="share_number">%1$s:%2$s</string>
+    <string name="upgrade_text">你可以在这里直接升级到VIP,Vip1每天可以领取1000个钻石,Vip2每天可以领取2000个钻石,Vip3每天可以领取5000个钻石\n[每次升级需要消耗50个金币]</string>
+
+</resources>
